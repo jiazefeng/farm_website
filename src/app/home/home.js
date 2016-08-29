@@ -35,8 +35,8 @@ angular.module('farm.home', [
             views: {
                 'content': {
                     controller: 'indexController',
-                    templateUrl: 'home/ranchingType.tpl.html'
-                    // template: '<h4>欢迎您来到管理系统！</h4>'
+                    // templateUrl: 'home/ranchingType.tpl.html'
+                    template: '<h4>欢迎您来到管理系统！</h4>'
                 }
             }
         })
